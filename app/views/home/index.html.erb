@@ -1,3 +1,9 @@
 <h1>Places I've Been</h1>
 
+<p>
+<% for place in @places%>
+<%= place.name%>
+<% end %>
+</p>
+
 <a href="/place/new"> Add a place </a>
